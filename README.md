@@ -1,1 +1,0 @@
-# Shiozawataichi.github.io
