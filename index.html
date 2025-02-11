@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ポートフォリオ</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: white;
+            padding: 30px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            transition: transform 0.3s ease;
+        }
+        .container:hover {
+            transform: scale(1.02);
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 20px;
+            border: 5px solid #ff758c;
+        }
+        h1 {
+            color: #ff477e;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #444;
+            line-height: 1.8;
+        }
+        h2 {
+            color: #ff477e;
+            margin-top: 30px;
+        }
+        .skill-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        .skill-img:hover {
+            transform: scale(1.1);
+        }
+        .long-img {
+            width: 150px;
+            height: 80px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+            object-fit: cover;
+        }
+        .skill-box {
+            margin-top: 20px;
+            padding: 15px;
+            background: #fff4f7;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .skill-box h3 {
+            color: #ff477e;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="profile-img" src="imges/api.jpg" alt="プロフィール画像">
+        <h1>塩澤泰一</h1>
+        <p>開志専門職大学在籍<br>情報学部2年</p>
+        
+        <h2>スキル</h2>
+        
+        <div class="skill-box">
+            <img class="skill-img" src="imges/power automate.jpg" alt="Power Automate">
+            <h3>Power Automate</h3>
+            <p>プロセスの自動化を実現するRPAツールで、ローカルアプリケーションやWebアプリの自動化が可能。</p>
+        </div>
+        
+        <div class="skill-box">
+            <img class="skill-img" src="imges/power apps.jpg" alt="Power Apps">
+            <h3>Power Apps</h3>
+            <p>プログラミング経験がなくても簡単にアプリを作成できる、直感的なアプリ開発ツール。</p>
+        </div>
+        <h2>作成物</h2>
+        <div class="skill-box">
+            <img class="long-img" src="imges/apps.jpg" alt="apps">
+            <h3>依頼管理アプリ</h3>
+            <p>依頼を作成し管理するアプリの開発</p>
+        </div>
+    </div>
+</body>
+</html>
